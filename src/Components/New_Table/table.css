@@ -1,0 +1,45 @@
+.input_item {
+  width: 80px;
+  padding: 5px;
+  height: 50px;
+}
+
+.top_three {
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 0px;
+}
+
+.warn {
+  color: red;
+}
+
+/* tr {
+  border-bottom: 5px solid red;
+} */
+
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th,
+thead {
+  border: 1px solid red;
+  background-color: red;
+}
+
+tr {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.border_btm {
+  border-bottom: 1px solid wheat;
+  padding: 10px;
+}
+
+.bb {
+  border-bottom: 1px solid wheat;
+}
