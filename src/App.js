@@ -2,13 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import { InputText } from "primereact/inputtext";
 
-import NewTable from "./Components/New_Table/NewTable";
+import NewTable from "./Components/Table/Table";
+import SideBar from "./Components/SideBar/SideBar";
 
 function App() {
   return (
     <div className="App flex flex-row">
       <div>
-        <h1>SIDEBAR</h1>
+        <SideBar />
       </div>
       <div style={{ padding: "10px" }}>
         <div className="flex flex-column">
